@@ -1,12 +1,19 @@
-type `npm init` in the console
-enter your project name
+#INIT
+
+type in the console
+```
+npm init
+```
+Enter your project name
 press enter for the rest
 
-once done type
+once done type, install express by typing in the console
+```
 npm i express
-to install express
-// module express -> Fast, unopinionated, minimalist web framework for node. //
+```
 
-there will be a node_module
-look at package.json to see the changes
-the dependencies will be added to the files you have added
+**_module express_** : *Fast, unopinionated, minimalist web framework for node.*
+
+There will be a *node_module* added in your file directory. This will be all the modules that are used by your app.
+
+Look at *package.json* and look at the *dependencies* that have been added. The module name and version number is shown.

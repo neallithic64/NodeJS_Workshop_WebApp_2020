@@ -2,11 +2,11 @@
 const express = require('express');
 const path = require('path');
 const exphbs = require('express-handlebars');
-const bodyParser = require('body-parser'); // add this module, helps you in parsing form data
-require('dotenv').config();
+const bodyParser = require('body-parser');
+require('dotenv').config(); // add this
 
 const app = express();
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 // Initialize the view
 app.use(express.static(__dirname + '/'));
