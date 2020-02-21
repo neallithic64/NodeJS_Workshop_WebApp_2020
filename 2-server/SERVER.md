@@ -1,6 +1,6 @@
 # SERVER
-Add a file *app.js* and write this to the file
-```
+Add a file `app.js` and write this to the file
+```javascript
 const express = require('express'); // get the express module
 
 const app = express();
