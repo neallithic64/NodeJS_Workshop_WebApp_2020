@@ -1,4 +1,4 @@
-#SERVER
+# SERVER
 Add a file *app.js* and write this to the file
 ```
 const express = require('express'); // get the express module
@@ -20,4 +20,4 @@ After that, you just run the command
 ```
 node app
 ```
-and the app will be running. To see the web app just go to your browser and go to the link that the app has printed.
+And the app will be running. To view the web app just go to your browser and go to the link that the app has printed.

@@ -1,11 +1,10 @@
-#Reminders
-
+# Readme
+______________________________
+### Reminders
 Install **node, git and VS code**
 
-****************************************
 **_GENERAL REMINDER ON GIT_**
-When pushing a files in the repo always add a *.gitignore* file.
-The file will ignore not push files that are written inside the file.
+When pushing a files in the repo always add a *.gitignore* file. The file will ignore not push files that are written inside the file.
 
 Every node js *.gitignore* contents
 ```
