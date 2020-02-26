@@ -1,0 +1,27 @@
+<style>
+    .container {
+        margin-top: 4rem;
+        width: 50%;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    .submit {
+        width: 100px;
+        margin-left: calc(100% - 100px);
+    }
+    h1 {
+        margin-bottom: 0.5rem;
+    }
+</style>
+
+{{> navbar }}
+<div class="row">
+    <div class="container bg-light">
+        <form method="POST">
+        <div class="form-group">
+            <h1>Submit Query</h1>
+        </div>
+        <button type="submit" class="btn btn-primary submit">Submit</button>
+        </form>
+    </div>
+</div>

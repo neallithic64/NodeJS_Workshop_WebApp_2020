@@ -1,4 +1,15 @@
-# DOTENV
+# MODULES
+### COOKIE PARSER
+
+### EXPRESS SESSION
+
+### BCRYPT/CRYPT
+
+### PASSPORT/EXPRESS VALIDATOR
+
+### MONGODB/MONGOOSE
+
+### DOTENV
 Installed dotenv module so that the `.env` can be set
 Imported the module to the app
 Added `.env` example
