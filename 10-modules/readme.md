@@ -1,14 +1,14 @@
 # MODULES
 ### COOKIE PARSER
-
-### EXPRESS SESSION
-
+Parsing cookies sent to the server, you can store values/user data to cookies
+### EXPRESS-SESSION
+Makes a session between the server
 ### BCRYPT/CRYPT
-
-### PASSPORT/EXPRESS VALIDATOR
-
+Hashing/Encryption of data
+### PASSPORT/EXPRESS-VALIDATOR
+Backend Validation
 ### MONGODB/MONGOOSE
-
+Connection to a database
 ### DOTENV
 Installed dotenv module so that the `.env` can be set
 Imported the module to the app
