@@ -61,7 +61,7 @@ getCallbackHell: function(req, res, next) {
 }
 ```
 If are needed to wait for a value before we can do anything, this will be a problem. This is a problem in writing and reading this kind of problem. A solution is using either promise chaining or await chaining.
-#### Promise chaining
+### Promise chaining
 ```javascript
 getPromiseChaining: function(req, res, next) {
     promises.addDelay(100, 200, 100)
