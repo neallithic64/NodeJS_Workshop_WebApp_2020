@@ -1,4 +1,4 @@
-# ENV
+# DOTENV
 Installed dotenv module so that the `.env` can be set
 Imported the module to the app
 Added `.env` example
