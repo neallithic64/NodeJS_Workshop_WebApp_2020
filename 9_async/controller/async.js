@@ -110,9 +110,9 @@ const asyncFunctions = {
         try {
             let sum = await promises.addDelay(100, 30, 1000);
             console.log(sum);
-            res.json(sum);
+            return res.json(sum);
         } catch(err) {
-            res.json(err);
+            return res.json(err);
         }
     },
 
@@ -121,9 +121,9 @@ const asyncFunctions = {
             let sum = await promises.addDelay(100, 200, 100);
             let difference = await promises.subtractDelay(sum, 90, 100);
             let sum2 = await promises.addDelay(difference, 10, 200);
-            res.json(sum2);
+            return res.json(sum2);
         } catch (err) {
-            res.json(err);
+            return res.json(err);
         }
     }
 };
