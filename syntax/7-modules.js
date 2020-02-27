@@ -1,12 +1,12 @@
 // let say I want a function that will be shared with different js files
 
 module.exports = {
-    add: function(i1, i2) {
-        return i1 + i2;
-    },
-    subtract: function(i1, i2) {
-        return i1 - i2;
-    }
+	add: function(i1, i2) {
+		return i1 + i2;
+	},
+	subtract: function(i1, i2) {
+		return i1 - i2;
+	}
 };
 
 // const moduleFunction = {
